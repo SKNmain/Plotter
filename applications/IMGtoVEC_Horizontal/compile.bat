@@ -1,0 +1,2 @@
+@echo off
+g++ main.cpp --std=c++11 -static-libgcc -static-libstdc++ -I "D:\MinGW\SDL2-2.0.5\i686-w64-mingw32\include" -L "D:\MinGW\SDL2-2.0.5\i686-w64-mingw32\lib" -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -o main.exe
